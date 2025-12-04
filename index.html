@@ -8,6 +8,7 @@
 	<body>
 		<a-scene embedded arjs>
 			<a-marker preset="hiro">
+				</a-marker>
 			<!-- create your AR content here -->
 			<a-box
 		     color="red"
@@ -29,14 +30,13 @@
 		<a-cone
 		     color="red"
 			 height="2"
-			 width="2"
-			 depth="2"
-
+			bottom="3"
+			 top-radius="0"
 			 position="0 10 -10"
 			>
 			</a-cone>
 			
-			</a-marker>
+			
 
 			<!-- define a camera which will move according to the marker position -->
 			<a-entity camera></a-entity>
